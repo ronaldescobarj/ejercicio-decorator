@@ -59,14 +59,6 @@ describe('Decorator', function () {
     expect(arco.obtenerDanio()).eq(50);
   });
 
-  
-
-
-
-
-
-
-
   it('una espada sin decoradores deberia tener un daño de 10', function () {
     let espada = new Espada();
     expect(espada.obtenerDanio()).eq(10);
